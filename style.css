@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.navigation {
+  height: 110px;
+  width: 95vw;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.nav-un-list {
+  margin-top: 30px;
+  margin-right: 40px;
+}
+.navigation li {
+  display: inline;
+  /* margin-top: 10px; */
+  margin: 5px;
+  padding: 5px;
+}
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.logo {
+  padding: 10px;
+  margin-top: 13px;
+  font-size: 20px;
+  /* color: linear-gradient(blue,hotpink); */
+}
+
+/* ////////////////////////////Navigation Section End Here/////////////////////////////// */
+/* ////////////////////////////Navigation Section End Here/////////////////////////////// */
+/* ////////////////////////////Navigation Section End Here/////////////////////////////// */
+.main-section {
+  margin-top: 70px;
+  display: flex;
+}
+.main-half-width-content {
+  width: 50%;
+  margin-left: 20px;
+}
+.main-inside-half-width-content {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.half-width-img {
+  width: 40%;
+}
+.main-img {
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 70px;
+}
+h1 {
+  font-size: 40px;
+}
+.name {
+  color: tomato;
+}
+.main-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.button {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* ////////////////////////////Main Section End Here/////////////////////////////// */
+/* ////////////////////////////Main Section End Here/////////////////////////////// */
+/* ////////////////////////////Main Section End Here/////////////////////////////// */
+/* ////////////////////////////About section start here/////////////////////////////// */
+.about {
+  display: flex;
+}
+.about-half-width-img {
+  width: 50%;
+}
+.about-half-width-content {
+  width: 50%;
+  margin-left: 5px;
+  padding: 30px;
+}
+.inside-about-img {
+  width: 70%;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.inside-about-half-width-content {
+  margin-top: 50px;
+}
+.about-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* ////////////////////////////About section End here/////////////////////////////// */
+/* ////////////////////////////About section End here/////////////////////////////// */
+/* ////////////////////////////About section End here/////////////////////////////// */
+/* ////////////////////////////Experiences section Start here/////////////////////////////// */
+
+.latest {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.experience {
+  margin-top: 10px;
+}
+.experiece-content {
+  display: flex;
+  padding: 50px;
+}
+.demo {
+  width: 30%;
+  margin-left: 60px;
+  box-shadow: 10px 10px 40px gray;
+  padding: 20px;
+}
+
+.img4 {
+  width: 90%;
+}
+.ex-heading-3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.ex-content-1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, tomato);
+  border-image-slice: 1;
+}
+.ex-content-2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(gray, red);
+  border-image-slice: 1;
+}
+.ex-content-3 {
+  border-left: 7px solid;
+  border-image: linear-gradient(hotpink, gray);
+  border-image-slice: 1;
+}
+
+/* ////////////////////////////Experience section End here/////////////////////////////// */
+/* ////////////////////////////Experience section End here/////////////////////////////// */
+/* ////////////////////////////Experience section End here/////////////////////////////// */
+/* ////////////////////////////Inquiry section start here/////////////////////////////// */
+
+.inquiry {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.blue {
+  height: 150px;
+  width: 850px;
+  padding: 30px;
+  /* background-color: blue; */
+  background-image: linear-gradient(blue, rgb(121, 36, 233));
+  margin: 0 auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.in-heading {
+  color: white;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.in-button {
+  display: inline-block;
+  height: 10px;
+  width: 80px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  background-color: tomato;
+  padding: 20px;
+  margin-right: 100px;
+  margin-top: 70px;
+  border-radius: 7px;
+}
+
+/* ////////////////////////////Inquiry section End here/////////////////////////////// */
+/* ////////////////////////////Inquiry section End here/////////////////////////////// */
+/* ////////////////////////////Inquiry section End here/////////////////////////////// */
+/* ////////////////////////////Footer section Start here/////////////////////////////// */
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.icon {
+  font-size: 25px;
+}
